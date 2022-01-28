@@ -1,0 +1,77 @@
+/* design general rules */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Monteserrat;
+}
+
+ul li {
+    list-style-type: none;
+}
+nav a{
+    color: #000;
+    text-decoration: none;
+}
+.menu-icons img {
+    display: none;
+    height: 25px;
+}
+
+/* toggle menu  */
+input {
+    display: none;
+}
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+/* mobile designs; */
+/* below style is in action only when the screen size is:860px or less */
+@media (max-width: 768px) {
+    nav {
+        background-color: #c2c2c2;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .logo a{
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 50px;
+    }
+    .menu-icons {
+        background-color: red;
+    }
+    .menu-icons img {
+        display: block; 
+        
+    }
+
+    .nav-menu {
+        display: none;
+        font-size: 24px;
+        background-color: #c2c2c2;
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+    .nav-menu li:hover {
+        display: inline-block;
+        transition: 0.3s ease-out;
+        background-color: #8b8a8a;
+        width: 100%;
+    }
+    .nav-menu li {
+        margin-top: 10px;
+    }
+    input:checked ~ .nav-menu{
+        display: block;
+    }
+    .hamburger {
+        display: block;
+    }
+}
