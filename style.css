@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    background-color:rgba(0, 0, 0, 0.1);
+}
+#navbar .logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+.nav-links ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 16px;
+}
+.nav-buttons {
+    font-size: 16px;
+}
+.nav-buttons a:last-of-type{
+    background-color: #23A6F0;
+    margin-left: 10px;
+    padding: 8px;
+    border-radius: 4px;
+}
+.nav-icons img {
+    height: 25px;
+    display: none;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* home section design */
+#banner-section {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("./images/hero-cover.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner {
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 40%;
+}
+.banner h3{
+    font-size: 3em;
+    margin-top: 50px;
+    
+}
+.banner p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.buttons a {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 30px;   
+    width: auto;
+    padding: 14px;
+    margin: 8px;
+    color: #fff;
+}
+a.join-button {
+    background-color: #23A6F0;
+}
+
+/* flashcards */
+.main-flash-cards {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+}
+.card {
+    background-color: #fff;
+    width: 20%;
+    padding: 20px;
+    margin: 10px;
+}
+.card:last-of-type {
+    background-color: #23A6F0;
+    color: #fff;
+}
+
+.card p {
+    color: #595b5e;
+}
+
+
+/* mobile device design */
+/* below style is in action when screen is (=<specified width) */
+@media screen and (max-width: 760px) {
+    #navbar {
+        background-color: #b0b6b6;
+        flex-direction: column;
+        position: relative;
+    }
+    #navbar a {
+        color: #fff;
+    }
+    .nav-icons img{
+        display: block;
+        height: 30px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .logo {
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .nav-links ul li {
+        display: block;
+        padding: 10px;
+    }
+    .nav-links {
+        padding-top: 10px;
+        width: 100%;
+    }
+    .nav-buttons {
+        display: none;
+    }
+}
