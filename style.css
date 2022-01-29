@@ -96,6 +96,27 @@ a.join-button {
     background-color: #23A6F0;
 }
 
+/* flashcards */
+.main-flash-cards {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+}
+.card {
+    background-color: #fff;
+    width: 20%;
+    padding: 20px;
+    margin: 10px;
+}
+.card:last-of-type {
+    background-color: #23A6F0;
+    color: #fff;
+}
+
+.card p {
+    color: #595b5e;
+}
 /* mobile device design */
 /* below style is in action when screen is (=<specified width) */
 @media screen and (max-width: 760px) {
