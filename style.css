@@ -53,7 +53,7 @@
       ),
       url("./images/hero-cover.png");
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
 }
 
 .banner {
@@ -117,6 +117,8 @@ a.join-button {
 .card p {
     color: #595b5e;
 }
+
+
 /* mobile device design */
 /* below style is in action when screen is (=<specified width) */
 @media screen and (max-width: 760px) {
