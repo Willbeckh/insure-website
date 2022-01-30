@@ -280,6 +280,7 @@ form button {
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
+    border: 1px #23A6F0 solid;
 }
 #card .title {
     font-weight: 800;
@@ -354,6 +355,14 @@ a.buy-button {
     text-align: center;
 }
 
+/* style location section */
+#location {
+    height: 100vh;
+    padding: 20px;
+    background-color: #252B42;
+    color: #fff;
+    
+}
 
 /* mobile devicess design */
 /* below style is in action when screen is (=<specified width) */
