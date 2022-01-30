@@ -230,7 +230,7 @@ form .inputs-field {
     position: relative;
 }
 form input[type="text"]{
-    width: 300px;
+    width: 400px;
     height: 40px;
     border: none;
     border-radius: 8px;
@@ -251,6 +251,118 @@ form button {
     right: 0;
 }
 
+/* prices section */
+#pricing {
+    height: 100vh;
+    padding: 20px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.pricing-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.pricing-header h4 {
+    font-weight: 800;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.pricing-header p {
+    color: #615e5e;
+}
+.price-cards {
+    display: flex;
+    justify-content: center;
+}
+#card {
+    width: 20%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px #23A6F0 solid;
+}
+#card .title {
+    font-weight: 800;
+    font-size: 2em;
+    margin: 10px;
+    text-align: center;
+}
+#card .description {
+    text-align: center;
+    font-size: 1em;
+}
+#card.card-2 {
+    transform: scale(1.1);
+    background-color: #252B42;
+    color: #fff;
+}
+span.amount{
+    /* text-align: center; */
+    font-size: 2em;
+}
+.price-range {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 20px;
+}
+.list-items li{
+    /* margin-left: 30px; */
+    font-size: 1.2em;
+}
+span.amount {
+    color: #23A6F0;
+}
+.amount::after {
+    content: '$';
+    font-size: 0.4em;
+    vertical-align: top;
+    color: #23A6F0;
+}
+span.time {
+    font-size:.8em;
+    vertical-align:text-bottom;
+    color: #23A6F0;
+}
+ul li {
+    padding: 8px;
+    list-style: none;
+    padding: 10px 10px 5px 40px;
+    list-style: none;
+    margin: 2px;
+    vertical-align: middle;
+}
+ul li.check{
+    background: url('./images/icons/greenCheck.png') left center no-repeat;
+    
+}
+ul li.unchecked {
+    background: url('./images/icons/greyCheck.png') left center no-repeat;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+a.buy-button {
+    background-color: #23A6F0;
+    border-radius: 8px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    width: 80%;
+    text-align: center;
+}
+
+/* style location section */
+#location {
+    height: 100vh;
+    padding: 20px;
+    background-color: #252B42;
+    color: #fff;
+    
+}
 
 /* mobile devicess design */
 /* below style is in action when screen is (=<specified width) */
