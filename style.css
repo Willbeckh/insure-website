@@ -181,13 +181,14 @@ a.join-button {
     background-color: #fff;
     border-radius: 6px;
 }
-.sub-cards p {
-    font-weight: 400;
-}
 .sub-cards img {
     height: 180px;
     margin-bottom: 10px;
 }
+.sub-cards p {
+    font-weight: 400;
+}
+
 .rating {
     margin-top: 10px;
     padding: 20px;
@@ -196,10 +197,62 @@ a.join-button {
     height: 20px;
 }
 
-
 /* style form section */
+.partners {
+    display: flex;
+    justify-content: center;
+}
+.partners span img {
+    cursor: pointer;
+    height: 40px;
+    margin: 20px;
+}
 
-/* mobile device design */
+#subscribe-form {
+    margin: 10px auto;
+    width: 70%;
+    padding: 20px;
+    
+}
+form {
+    padding: 20px;
+    background: linear-gradient(to right, #363C88, #D14F88);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2em;
+}
+form .inputs-field {
+    position: relative;
+}
+form input[type="text"]{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding: 0 10px;
+    
+}
+form button {
+    height: 40px;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    padding: 10px;
+    color: #fff;
+    background-color: #23A6F0;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* mobile devicess design */
 /* below style is in action when screen is (=<specified width) */
 @media screen and (max-width: 760px) {
     #navbar {
