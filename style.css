@@ -330,7 +330,7 @@ span.time {
     vertical-align:text-bottom;
     color: #23A6F0;
 }
-ul li {
+#coverage li {
     padding: 8px;
     list-style: none;
     padding: 10px 10px 5px 40px;
@@ -457,23 +457,56 @@ p.heading {
 .contacts-sub-container {
     margin-top: 100px;
 }
-#contacts {
+#contact {
     height: 100vh;
-    background-color: #dbd2d2;
-    padding: 20px;
+    background-color: #ece9e9e3;
+    padding: 20px 0 ;
 }
 .outro {
     display: flex;
     justify-content: space-between;
-    background-color: red;
-    height: 50px;
+    align-items: center;
     padding: 30px;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
-.outro p {
+.outro p{
     font-size: 1.2em;
     font-weight: bold;
+}
+.outro a {
+    background-color: #23a6f0;
+    border-radius: 8px;
+    padding: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+#contacts-details {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    margin-top: 60px;
+}
+.contact-row {
+    padding: 30px;
+    width: 60%;
+    margin: 30px auto;
+}
+.contact-row p{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.contact-row ul li {
+    list-style-type: none;
+    padding: 8px 0;
+}
+.contact-row ul li a{
+    text-decoration: none;
+    color: #6d6a6a;
 }
 
 /* mobile devicess design */
