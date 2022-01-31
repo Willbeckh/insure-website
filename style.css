@@ -214,7 +214,7 @@ a.join-button {
     padding: 20px;
     
 }
-form {
+.first-form {
     padding: 20px;
     background: linear-gradient(to right, #363C88, #D14F88);
     display: flex;
@@ -229,7 +229,7 @@ form p {
 form .inputs-field {
     position: relative;
 }
-form input[type="text"]{
+.inputs-field input[type="text"]{
     width: 400px;
     height: 40px;
     border: none;
@@ -361,7 +361,48 @@ a.buy-button {
     padding: 20px;
     background-color: #252B42;
     color: #fff;
-    
+    display: flex;
+    flex-direction: row;
+}
+.location-info {
+    width: 50%;
+    padding: 30px;
+    margin: 40px;
+}
+p.heading {
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.location-image {
+    width: 60%;
+    margin: 60px;
+}
+
+/* appointment form */
+#appointment-form {
+    width: 500px;
+    /* background-color: #fff; */
+    background: #f1f7fc;
+    padding: 80px 0;
+}
+.form-container .form-photo {
+    background: url(./images/contact-cover2.png);
+    background-size: cover;
+}
+#appoitment-form .form-container {
+    display: table;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+#appoitment-form form {
+    display: table-cell;
+    width: 400px;
+    background-color: #ffffff;
+    padding: 40px 60px;
 }
 
 /* mobile devicess design */
