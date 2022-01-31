@@ -388,9 +388,8 @@ p.heading {
 
 /* appointment form */
 #appointment-form {
-    width: 50%;
     background: #f1f7fc;
-    padding: 80px;
+    /* padding: 80px; */
     height: 400px;
     display: flex;
     /* justify-content: center; */
@@ -402,14 +401,56 @@ p.heading {
     left: 25%;
 }
 .form-container {
-    padding: 20px;
+    width: 50%;
     margin: 10px;
-}
-.form-photo {
-    background: url('./images/contact-cover2.png');
-    width: 10px;
+    background: #f1f7fc;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+
+    position: absolute;
+    top: 60%;
+    left: 25%;
 }
 
+.form-photo img {
+    height: 100%;
+}
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 80%;
+}
+
+.booking-form h2 {
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.field {
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    border: 1px solid rgba(175, 173, 173, 0.822);
+    border-radius: 8px;
+    padding: 0 10px;
+}
+.submit-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.submit-btn a {
+    background-color: rgb(35, 166, 240);
+    border-radius: 8px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 60%;
+    text-align: center;
+}
 
 /* mobile devicess design */
 /* below style is in action when screen is (=<specified width) */
