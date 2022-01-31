@@ -479,6 +479,9 @@ p.heading {
 /* mobile devicess design */
 /* below style is in action when screen is (=<specified width) */
 @media screen and (max-width: 760px) {
+    body {
+        flex-direction: row; /* stactks all items vertically*/
+    }
     #navbar {
         background-color: #b0b6b6;
         flex-direction: column;
@@ -510,4 +513,6 @@ p.heading {
     .nav-buttons {
         display: none;
     }
+
+    /* style home section */
 }
