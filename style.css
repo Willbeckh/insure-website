@@ -452,6 +452,30 @@ p.heading {
     text-align: center;
 }
 
+
+/* Contacts section */
+.contacts-sub-container {
+    margin-top: 100px;
+}
+#contacts {
+    height: 100vh;
+    background-color: #dbd2d2;
+    padding: 20px;
+}
+.outro {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    height: 50px;
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+.outro p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
 /* mobile devicess design */
 /* below style is in action when screen is (=<specified width) */
 @media screen and (max-width: 760px) {
