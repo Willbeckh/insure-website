@@ -494,7 +494,7 @@ p.heading {
 .contact-row {
     padding: 30px;
     width: 60%;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 .contact-row p{
     font-size: 1.2em;
@@ -507,6 +507,16 @@ p.heading {
 .contact-row ul li a{
     text-decoration: none;
     color: #6d6a6a;
+}
+
+/* footer */
+#footer {
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* mobile devicess design */
