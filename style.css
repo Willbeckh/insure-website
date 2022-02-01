@@ -604,7 +604,24 @@ p.heading {
         justify-content: center;
         flex-direction: column;
     }
+    .partners {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #subscribe-form {
+        width: 100%;
+    }
+    .inputs-field input[type="text"] {
+        width: auto;
+        height: 40px;
+        border: none;
+        border-radius: 8px;
+        padding: 0 10px;
+    }
 
-    /* products section */
+    /* products package section */
 
 }
