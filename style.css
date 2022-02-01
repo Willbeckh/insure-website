@@ -595,6 +595,7 @@ p.heading {
     /* industy section */
     #testimonials {
         width: 100%;
+        height: auto;
     }
     #profile-cards {
         width: 80%;
@@ -603,4 +604,7 @@ p.heading {
         justify-content: center;
         flex-direction: column;
     }
+
+    /* products section */
+
 }
