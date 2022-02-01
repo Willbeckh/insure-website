@@ -623,5 +623,25 @@ p.heading {
     }
 
     /* products package section */
-
+    #pricing {
+        width: 100%;
+        height: auto;
+    }
+    .price-cards {
+        /* width: 100%; */
+        flex-direction: column;
+        justify-content: center;
+        margin: 6px auto;
+        padding: 10px;
+    }
+    #card {
+        width: 90%;
+        margin: 14px;
+        /* padding: 10px; */
+    }
+    #card.card-2 {
+        width: 90%;
+        transform: none;
+    }
+    
 }
