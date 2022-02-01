@@ -388,19 +388,6 @@ p.heading {
 }
 
 /* appointment form */
-#appointment-form {
-    background: #f1f7fc;
-    /* padding: 80px; */
-    height: 400px;
-    display: flex;
-    /* justify-content: center; */
-    flex-direction: row;
-    margin: 10px auto;
-
-    position: absolute;
-    top: 60%;
-    left: 25%;
-}
 .form-container {
     width: 50%;
     margin: 10px;
@@ -592,10 +579,13 @@ p.heading {
         width: 100%;
     }
 
-    /* industy section */
+    /* testimonies section */
     #testimonials {
         width: 100%;
         height: auto;
+    }
+    .info p{
+        font-size: 1em;
     }
     #profile-cards {
         width: 80%;
@@ -646,7 +636,7 @@ p.heading {
 
     /* location section */
     #location {
-        height: 100vh;
+        height: auto;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -663,4 +653,24 @@ p.heading {
     .location-image img {
         width: 100%;
     }
+
+    /* booking form */
+    .form-container {
+        /* width: 100%; */
+        /* margin: 10px; */
+        background: #f1f7fc;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* margin: 10px auto; */
+        /* position: absolute; */
+        /* top: 60%; */
+        /* left: 25%; */
+    }
+    .form-photo img{
+        width: 100%;
+        height: 200px;
+    }
+
 }
+
