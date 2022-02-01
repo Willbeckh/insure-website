@@ -55,6 +55,7 @@ body {
         rgba(0, 0, 0, 0.5)
       ),
       url("./images/hero-cover.png");
+    background-position: center;
     background-size: cover;
     height: 100vh;
 }
@@ -73,7 +74,7 @@ body {
     position: relative;
 }
 .banner-content {
-    margin-top: 20%;;
+    margin-top: 20%;
 }
 .banner h3{
     font-size: 3em;
@@ -523,7 +524,9 @@ p.heading {
 /* below style is in action when screen is (=<specified width) */
 @media screen and (max-width: 760px) {
     body {
-        flex-direction: row; /* stactks all items vertically*/
+        display: flex;
+        flex-direction: column;
+        width: 100%; /* stactks all items vertically*/
     }
     #navbar {
         background-color: #b0b6b6;
@@ -558,4 +561,46 @@ p.heading {
     }
 
     /* style home section */
+    #banner-section {
+        height: 180vh;
+    }
+    .banner {
+        width: 100%;
+    }
+    .banner-content h3{
+        margin-top: 10px;
+        font-size: 2em;
+    }
+
+    .main-flash-cards {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    .card {
+        width: 70%;
+        margin: 4px auto;
+    }
+
+    /* product section */
+    #product {
+        height: 100vh;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sub-banner-card  {
+        width: 100%;
+    }
+
+    /* industy section */
+    #testimonials {
+        width: 100%;
+    }
+    #profile-cards {
+        width: 80%;
+        margin: 6px auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
