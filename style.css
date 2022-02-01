@@ -670,6 +670,20 @@ p.heading {
         /* height: auto; */
     }
 
-    ?
+    /* contact section:mobile */
+    #contact {
+        width: 100%;
+        
+    }
+    #contacts-details {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-row {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    /*  */
 }
 
