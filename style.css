@@ -640,6 +640,7 @@ p.heading {
         width: 100%;
         display: flex;
         flex-direction: column;
+        position: relative;
     }
     .location-info {
         width: 100%;
@@ -656,21 +657,19 @@ p.heading {
 
     /* booking form */
     .form-container {
-        /* width: 100%; */
+        width: 100%;
         /* margin: 10px; */
         background: #f1f7fc;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        /* margin: 10px auto; */
-        /* position: absolute; */
-        /* top: 60%; */
-        /* left: 25%; */
+        /* display: flex; */
+        height: auto;
+        margin: 0 auto;
+        position: unset;
     }
     .form-photo img{
         width: 100%;
-        height: 200px;
+        /* height: auto; */
     }
 
+    ?
 }
 
